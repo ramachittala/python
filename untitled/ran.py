@@ -5,7 +5,7 @@ import re
 str = "Hello from Ram"
 store = re.compile('Hello')
 find = store.match(str)
-#print(find)
+##print(find)
 if find:
     print('given string matched', find.group(), find.span())
 else:
